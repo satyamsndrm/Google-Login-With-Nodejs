@@ -42,7 +42,7 @@ componentWillMount(){
         return(
             <div className="loginForm">
             <GoogleLogin
-                clientId="710620814605-1kn827k9f2a6n69qeoqhmvoojek3b2a1.apps.googleusercontent.com"
+                clientId="CLIENT_ID"
                 buttonText="Login With Google"
                 onSuccess={this.Login}
                 onFailure={this.Failed}

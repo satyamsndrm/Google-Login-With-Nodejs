@@ -5,7 +5,7 @@ const passport = require('passport')
 const jwt = require('jsonwebtoken');
 
 const {OAuth2Client} = require('google-auth-library');
-const client = new OAuth2Client('710620814605-1kn827k9f2a6n69qeoqhmvoojek3b2a1.apps.googleusercontent.com');
+const client = new OAuth2Client('CLIENT_ID');
 
 require('../config/passportconfig.js');
 
