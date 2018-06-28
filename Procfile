@@ -1,0 +1,1 @@
+web: concurrently "react-scripts start" "nodemon server/server.js"

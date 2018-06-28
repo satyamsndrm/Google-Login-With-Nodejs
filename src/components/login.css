@@ -1,0 +1,32 @@
+.loginForm{
+    width: 30%;
+    margin-left:35%;
+    margin-top:30px;
+    padding:40px;
+    background-color:darkgray;
+    box-shadow: 10px 10px 10px grey;
+}
+@media (min-width: 576px) { 
+    .loginForm{
+        width:100%;
+        margin:3px;
+        padding:20px;
+        padding:50px 20px;
+    }
+}
+@media (min-width: 992px) { 
+    .loginForm{
+        width: 30%;
+        margin-left:35%;
+        margin-top:30px;
+        padding:40px;
+    }
+ }
+ @media (max-width: 575.98px) { 
+    .loginForm{
+        width:100%;
+        margin:3px;
+        padding:20px;
+        padding:50px 20px;
+    }
+}

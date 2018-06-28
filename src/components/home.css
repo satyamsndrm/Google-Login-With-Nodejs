@@ -1,0 +1,95 @@
+.formContainer form{
+    box-shadow: 5px 5px 5px grey;
+    margin:20px;
+    padding:20px;
+}
+.container{
+    width:50%;
+    margin-left:25%;
+}
+.postContainer{
+    margin:10px;
+}
+
+.postBox{
+    border:1px solid gray;
+    box-shadow:3px 3px 3px grey;
+    padding:20px;
+    margin:15px;
+}
+.postHeader{
+    height:30px;
+}
+.postHeader .leftSide{
+    display:inline-block;
+    width:60px;
+    height:60px;
+    float:left;
+}
+.postHeader .rightSide{
+    display:inline-block;
+    font-size: 19px;
+    font-weight: 600;
+    color: blue;
+    float:left;
+    margin-left:22px;
+
+}
+.postHeader .rightSide .date{
+    display: block;
+    font-size: 12px;
+    font-weight: 200;
+    color:darkolivegreen;
+}
+.postMiddle{
+    display:block;
+    background-color: white;
+    padding:20px;
+    font-size:20px;
+    text-align: left;
+
+}
+.postFooter{
+    margin:3px;
+}
+.likeComment{
+    position: relative;
+    right:30%;
+}
+.title{
+    font-size: 22px;
+    font-weight: 600;
+    color: darkblue;
+    margin-bottom:5px;
+    text-decoration: underline;
+}
+.noData{
+    min-height:50px;
+    min-width:50%;
+    margin-top:30px;
+    padding:50px;
+    box-shadow: 5px 5px 10px red;
+    color:darkred;
+    font-size: 30px;
+    font-weight:700;
+}
+
+@media (min-width: 576px) { 
+    .container{
+        width:100%;
+        margin:5px;
+    }
+}
+@media (min-width: 992px) { 
+    .container{
+        width: 50%;
+        margin-left:25%;
+    }
+ }
+ @media (max-width: 575.98px) { 
+    .container{
+        width:100%;
+        margin:0px;
+        padding:0px;
+    }
+}
