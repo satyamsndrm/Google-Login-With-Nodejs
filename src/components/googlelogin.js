@@ -35,13 +35,14 @@ componentWillMount(){
     }
     Failed(res){
        // alert('Failed To Login');
+       console.log(res);
     }
 
     render(){
         return(
             <div className="loginForm">
             <GoogleLogin
-                clientId="710620814605-tafkmm3scq634agdk7mj2r2djf1m3phe.apps.googleusercontent.com"
+                clientId="710620814605-1kn827k9f2a6n69qeoqhmvoojek3b2a1.apps.googleusercontent.com"
                 buttonText="Login With Google"
                 onSuccess={this.Login}
                 onFailure={this.Failed}
